@@ -31,5 +31,32 @@ public class PlayerController : MonoBehaviour
             mgr.Restart();
         }
 
+<<<<<<< Updated upstream
+=======
+        if(transform.position.y > 7 && transform.position.y < 8)
+        {
+            //rb.AddRelativeForce(new Vector2(0,1000), ForceMode2D.Impulse);
+            //Debug.Log("Force Applied");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.AddRelativeForce(new Vector2(0, 100));
+        }
+
+    }
+
+    private void Update()
+    {
+        if(transform.position.y > 20)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, -10);
+        }
+        else
+        {
+            //rb.gravityScale = 1.5f;
+        }
+
+>>>>>>> Stashed changes
     }
 }

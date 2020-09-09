@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     public void NextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        PlayerPrefs.SetInt("Level", SceneManager.GetActiveScene().buildIndex);
     }
 
     public void LoadNextScene()
@@ -28,6 +29,11 @@ public class GameManager : MonoBehaviour
         fading = true;
         fade.FadeOut();
         Invoke("NextLevel", 1);
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene(PlayerPrefs.GetInt("Level"));
     }
 
 }
