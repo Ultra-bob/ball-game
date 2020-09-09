@@ -15,11 +15,11 @@ D:/Users/Acer/Documents/ball-game/Parkour Pro II
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55212
+50126
 Successfully changed project path to: D:/Users/Acer/Documents/ball-game/Parkour Pro II
 D:/Users/Acer/Documents/ball-game/Parkour Pro II
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 78.23 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.99 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0a19 (8037ac78137e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/Resources/UnitySubsystems
@@ -35,32 +35,32 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 1.065943 seconds.
+Registered in 0.003530 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 28.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 27.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.482 seconds
+- Completed reload, in  1.827 seconds
 Registering precompiled user dll's ...
-Registered in 0.872448 seconds.
+Registered in 0.114964 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -77,7 +77,7 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.186 seconds
+- Completed reload, in  1.669 seconds
 Platform modules already initialized, skipping
 Script is not up to date after domain reload: guid(01df650e1b86e9f4a8e2b5dc9782506f) path("Packages/com.unity.ugui/Tests/Runtime/NestedLayout/SceneWithNestedLayoutElementsLoads.cs") state(2)
 Script is not up to date after domain reload: guid(5503f95d174761548a68a901beab13c2) path("Packages/com.unity.timeline/Editor/Window/Modes/TimelineInactiveMode.cs") state(2)
@@ -2637,7 +2637,7 @@ Script is not up to date after domain reload: guid(9f48b2bb8da58264985e72257811c
 Script is not up to date after domain reload: guid(02893ffb522b490a9fa28eedd2584309) path("Packages/com.unity.textmeshpro/Scripts/Editor/TMPro_TextContainerEditor.cs") state(2)
 RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
 
-Refresh completed in 0.000098 seconds.
+Refresh completed in 0.000071 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
@@ -2648,14 +2648,22 @@ System memory in use before: 29.9 MB.
 System memory in use after: 29.9 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 626.
-Total: 27.504300 ms (FindLiveObjects: 0.261900 ms CreateObjectMapping: 0.010000 ms MarkObjects: 27.132400 ms  DeleteObjects: 0.099000 ms)
+Total: 31.280000 ms (FindLiveObjects: 0.285600 ms CreateObjectMapping: 0.011300 ms MarkObjects: 30.883600 ms  DeleteObjects: 0.097300 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Scenes/Level 17.unity
   artifactKey: Guid(6c31b015e8f24e746ad37d1691900469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level 17.unity using Guid(6c31b015e8f24e746ad37d1691900469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '904dd0970bf35eb59ea49b0d996dd137') in 0.072884 seconds
-  Import took 0.096788 seconds .
+Start importing Assets/Scenes/Level 17.unity using Guid(6c31b015e8f24e746ad37d1691900469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c47ed779511a516cab05c8ce4bb783c') in 0.008551 seconds
+  Import took 0.009369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Scenes/Level 18.unity
+  artifactKey: Guid(48223ed834a264e4fadf20c8ec5bf6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 18.unity using Guid(48223ed834a264e4fadf20c8ec5bf6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7c07530607f04ebadb57562551807b') in 0.002228 seconds
+  Import took 0.003074 seconds .
 
 ========================================================================
 Received Prepare
@@ -2665,12 +2673,12 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004278 seconds.
+Registered in 0.002874 seconds.
 Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 29.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 25.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -2687,16 +2695,16 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.217 seconds
+- Completed reload, in  1.641 seconds
 Registering precompiled user dll's ...
-Registered in 2.048565 seconds.
+Registered in 0.113448 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invalid AssetDatabase path: /Editor/EditorResources/cm_logo_sm.png. Use path relative to the project folder.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -2713,397 +2721,21 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.749 seconds
+- Completed reload, in  1.551 seconds
 Platform modules already initialized, skipping
 RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
 
-Refresh completed in 0.000107 seconds.
+Refresh completed in 0.000081 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1298 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 71.0 MB.
 System memory in use after: 71.1 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2153.
-Total: 25.124700 ms (FindLiveObjects: 0.537300 ms CreateObjectMapping: 0.140500 ms MarkObjects: 24.403500 ms  DeleteObjects: 0.042200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1899.782689 seconds.
-  path: Assets/BOUNCY platform.prefab
-  artifactKey: Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOUNCY platform.prefab using Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9d4d98d44f733a67965c48b41cbc7d') in 0.171224 seconds
-  Import took 0.175237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/platform.prefab
-  artifactKey: Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platform.prefab using Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7d3dd2c6c01910b278dfd0ef0002b4') in 0.007617 seconds
-  Import took 0.035856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8516d8cec7fe55e7dd1010a5a969f0c3') in 0.080470 seconds
-  Import took 0.091923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49b7aa4107ee868c90d6feaa0c160c9') in 0.008284 seconds
-  Import took 0.017787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.894381 seconds.
-  path: Assets/BOUNCY platform.prefab
-  artifactKey: Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOUNCY platform.prefab using Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c0e2a18387cd98f357d0d60fa0c8c5') in 0.007647 seconds
-  Import took 0.011316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/platform.prefab
-  artifactKey: Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platform.prefab using Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e6bebad31d735ca9ec6caa15842319') in 0.007158 seconds
-  Import took 0.018297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90150635686628bd7e8030af26270465') in 0.010076 seconds
-  Import took 0.012769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ad8ed9359c755ea60e210b30eb6061') in 0.008026 seconds
-  Import took 0.019648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.334061 seconds.
-  path: Assets/BOUNCY platform.prefab
-  artifactKey: Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOUNCY platform.prefab using Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ffb19430b497c87d8f8673af1e6b93') in 0.009297 seconds
-  Import took 0.013154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/platform.prefab
-  artifactKey: Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platform.prefab using Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5376e6ca1c4c4dca3dbdcf8b397e5058') in 0.008199 seconds
-  Import took 0.016193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4d09b024e431a5b1a9043f67d19348') in 0.014828 seconds
-  Import took 0.017556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbfd9026526b5c65704a10c9e013986') in 0.010910 seconds
-  Import took 0.029356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.206569 seconds.
-  path: Assets/BOUNCY platform.prefab
-  artifactKey: Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOUNCY platform.prefab using Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743e1fc99ec63c0500b7f4980657b5d7') in 0.011428 seconds
-  Import took 0.026651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/platform.prefab
-  artifactKey: Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platform.prefab using Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78df6ab18d849e640abf6d82495fe4f5') in 0.007937 seconds
-  Import took 0.016997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1c4799b5fc344f803468f4274ee5dd') in 0.012270 seconds
-  Import took 0.023902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1d733b0249d59ecd14688b4027f82e') in 0.009072 seconds
-  Import took 0.018124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.407349 seconds.
-  path: Assets/BOUNCY platform.prefab
-  artifactKey: Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOUNCY platform.prefab using Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3cd37b2f6198f0eaa51fa37c772164') in 0.008690 seconds
-  Import took 0.011864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/platform.prefab
-  artifactKey: Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platform.prefab using Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e8636813b52d6a74f793a9ac62f086') in 0.007571 seconds
-  Import took 0.017405 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0747eac178b52bee964d623d9a2ec54b') in 0.010029 seconds
-  Import took 0.014652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6cc4db6b1f82ebcfc1444964a73ad49') in 0.007972 seconds
-  Import took 0.021588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.842141 seconds.
-  path: Assets/BOUNCY platform.prefab
-  artifactKey: Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOUNCY platform.prefab using Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc60ef85cfd667f5a673921d06dd2cfb') in 0.014054 seconds
-  Import took 0.018011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/platform.prefab
-  artifactKey: Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platform.prefab using Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccda450cceb476c16a35510ba6eb335') in 0.009323 seconds
-  Import took 0.198050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508257702fa67d1324ba58e8d489b4ef') in 0.015166 seconds
-  Import took 0.018639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d51f6ac715c21abe45b60d7ef5411fc') in 0.008162 seconds
-  Import took 0.010865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.642321 seconds.
-  path: Assets/BOUNCY platform.prefab
-  artifactKey: Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOUNCY platform.prefab using Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bfcf713b9af61d6f9e7e88963e16dc') in 0.009407 seconds
-  Import took 0.012388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/platform.prefab
-  artifactKey: Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platform.prefab using Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f06a1c6b2010de12243f424e6bbbc8') in 0.008081 seconds
-  Import took 0.010769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10045b9c2fbeb617fa89956adf34ae5') in 0.009202 seconds
-  Import took 0.024231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acaecc32624e20ee791e52ea242af58a') in 0.008245 seconds
-  Import took 0.021727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1588.318906 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218b5e923bf0431cf6cb179399a86c1c') in 0.066788 seconds
-  Import took 0.084510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.443902 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32edb218df4534578f14539b044583b') in 0.012788 seconds
-  Import took 0.016772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.775964 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e4af137985eac33dcec8d6bf68a4e3') in 0.019219 seconds
-  Import took 0.022817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 222.132347 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4752d96ced5fbe2dc0f52724d899e4ca') in 0.009222 seconds
-  Import took 0.012012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.883069 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001d58bd9179725cadb2b4bc4c1de7ca') in 0.057369 seconds
-  Import took 0.060324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.118057 seconds.
-  path: Assets/BOUNCY platform.prefab
-  artifactKey: Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOUNCY platform.prefab using Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128a8953d2cccfdc101609a7a89e6e69') in 0.013216 seconds
-  Import took 0.016465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 179.105744 seconds.
-  path: Assets/BOUNCY platform.prefab
-  artifactKey: Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOUNCY platform.prefab using Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69b0d00dc05ed9f25fb818db2b7fcb6') in 0.180177 seconds
-  Import took 0.213103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.110716 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ec9122abbc8d88b7e4032f1205560f') in 0.048359 seconds
-  Import took 0.051753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.304808 seconds.
-  path: Assets/BOUNCY platform.prefab
-  artifactKey: Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOUNCY platform.prefab using Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28cc6e7cc2c077148ce90a5ab64492b') in 0.009273 seconds
-  Import took 0.055575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/platform.prefab
-  artifactKey: Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platform.prefab using Guid(f39b6875b7dff684290f3516b8a26107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21776783412a171948b106c832cbdcc') in 0.007468 seconds
-  Import took 0.022543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18d6c91d216ee8f09a5bc4e5dbfb9de') in 0.064352 seconds
-  Import took 0.095958 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a1906b384f3e4051e0e2bd9b4390be') in 0.008497 seconds
-  Import took 0.014496 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18d6c91d216ee8f09a5bc4e5dbfb9de') in 0.009801 seconds
-  Import took 0.012288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.913090 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7008499fb218ca48419103464c81cfe') in 0.028291 seconds
-  Import took 0.031555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.909868 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c98670b4c7b7c46e35a883c26c2dea') in 0.012549 seconds
-  Import took 0.017465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.925590 seconds.
-  path: Assets/BOUNCY platform.prefab
-  artifactKey: Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOUNCY platform.prefab using Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403bdc667f29065812a1647ba95a2ac5') in 0.008502 seconds
-  Import took 0.010884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.788372 seconds.
-  path: Assets/BOUNCY platform.prefab
-  artifactKey: Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOUNCY platform.prefab using Guid(57030e16159a57444834fb50d757ca3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb360adc020651184233c17b72296876') in 0.012541 seconds
-  Import took 0.108854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.559763 seconds.
-  path: Assets/Death Platform.prefab
-  artifactKey: Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Death Platform.prefab using Guid(c22ff45484e5b7541bb5ceeae8692e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3f27a4da9db9af0be4e76a7b8b54e3') in 0.019827 seconds
-  Import took 0.023325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.847963 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09697b5c6197b4afd1fd7c2cf71bae9d') in 0.011868 seconds
-  Import took 0.031965 seconds .
+Total: 21.148000 ms (FindLiveObjects: 0.652900 ms CreateObjectMapping: 0.516100 ms MarkObjects: 19.945600 ms  DeleteObjects: 0.032500 ms)
 
 ========================================================================
 Received Prepare
@@ -3113,20 +2745,186 @@ Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003127 seconds.
+Registered in 0.002947 seconds.
 Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2669.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 28.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.992 seconds
+- Completed reload, in  1.647 seconds
 Registering precompiled user dll's ...
-Registered in 0.421769 seconds.
+Registered in 0.113577 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.625 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000084 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 52.0 MB.
+System memory in use after: 52.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2406.
+Total: 21.381400 ms (FindLiveObjects: 0.592400 ms CreateObjectMapping: 0.146400 ms MarkObjects: 20.612400 ms  DeleteObjects: 0.029400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003081 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.740 seconds
+Registering precompiled user dll's ...
+Registered in 0.106218 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.667 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000089 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.9 MB.
+System memory in use after: 58.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2658.
+Total: 21.086100 ms (FindLiveObjects: 0.400500 ms CreateObjectMapping: 0.080000 ms MarkObjects: 20.561400 ms  DeleteObjects: 0.042800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2198.989840 seconds.
+  path: Assets/Scenes/Level 19.unity
+  artifactKey: Guid(8a8ce310b4ad1e0459fbd792c286c9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 19.unity using Guid(8a8ce310b4ad1e0459fbd792c286c9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e50288d84366707c6408eb85818bec1') in 0.010978 seconds
+  Import took 0.050128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.508116 seconds.
+  path: Assets/Scenes/Level 17.unity
+  artifactKey: Guid(6c31b015e8f24e746ad37d1691900469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 17.unity using Guid(6c31b015e8f24e746ad37d1691900469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b97739fe643319efbb5a5502bbb6769') in 0.001697 seconds
+  Import took 0.009122 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003301 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 27.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.944 seconds
+Registering precompiled user dll's ...
+Registered in 0.117442 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.969 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000100 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.9 MB.
+System memory in use after: 64.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2910.
+Total: 23.066900 ms (FindLiveObjects: 0.418800 ms CreateObjectMapping: 0.093400 ms MarkObjects: 22.496000 ms  DeleteObjects: 0.057900 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002995 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 27.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.910 seconds
+Registering precompiled user dll's ...
+Registered in 0.109130 seconds.
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
@@ -3139,28 +2937,1206 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.685 seconds
+- Completed reload, in  1.918 seconds
 Platform modules already initialized, skipping
 RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
 
-Refresh completed in 0.001924 seconds.
+Refresh completed in 0.000126 seconds.
 RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 55.2 MB.
-System memory in use after: 55.3 MB.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.1 MB.
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2413.
-Total: 21.276000 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.133900 ms MarkObjects: 20.723900 ms  DeleteObjects: 0.031700 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3162.
+Total: 21.434800 ms (FindLiveObjects: 0.641900 ms CreateObjectMapping: 0.119200 ms MarkObjects: 20.627800 ms  DeleteObjects: 0.044600 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002943 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.082 seconds
+Registering precompiled user dll's ...
+Registered in 0.117147 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.985 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000090 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3414.
+Total: 22.489200 ms (FindLiveObjects: 0.505800 ms CreateObjectMapping: 0.105600 ms MarkObjects: 21.816200 ms  DeleteObjects: 0.060600 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003443 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 31.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.092 seconds
+Registering precompiled user dll's ...
+Registered in 0.116856 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.106 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000093 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.8 MB.
+System memory in use after: 82.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3666.
+Total: 22.518400 ms (FindLiveObjects: 0.473100 ms CreateObjectMapping: 0.091300 ms MarkObjects: 21.916000 ms  DeleteObjects: 0.037200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 198.403226 seconds.
-  path: Assets/End Portal.prefab
-  artifactKey: Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/End Portal.prefab using Guid(683b25cdf26f6484ea6a97926b195bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0316edd61665b0fb178ce9160454ea') in 0.077686 seconds
-  Import took 0.148254 seconds .
+  Time since last request: 2339.372941 seconds.
+  path: Assets/arrow-ios-upward.png
+  artifactKey: Guid(42101ed2fe6ef6347adaa4f389472bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arrow-ios-upward.png using Guid(42101ed2fe6ef6347adaa4f389472bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d522e9bdc2075d8312222c713c49728') in 0.155082 seconds
+  Import took 0.166581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.726842 seconds.
+  path: Assets/arrow-ios-upward.png
+  artifactKey: Guid(42101ed2fe6ef6347adaa4f389472bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arrow-ios-upward.png using Guid(42101ed2fe6ef6347adaa4f389472bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1161b3c0213daebe426d5e22d4db07c') in 0.007727 seconds
+  Import took 0.010603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002489 seconds.
+  path: Assets/arrow-ios-upward.png
+  artifactKey: Guid(42101ed2fe6ef6347adaa4f389472bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arrow-ios-upward.png using Guid(42101ed2fe6ef6347adaa4f389472bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1161b3c0213daebe426d5e22d4db07c') in 0.010757 seconds
+  Import took 0.014247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.374620 seconds.
+  path: Assets/arrow-up.svg
+  artifactKey: Guid(9b2c2dae6f738aa4c9c4977919243397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/arrow-up.svg using Guid(9b2c2dae6f738aa4c9c4977919243397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711f57f0b592facd4581ec183902c419') in 0.009339 seconds
+  Import took 0.035931 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003060 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 27.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.092 seconds
+Registering precompiled user dll's ...
+Registered in 0.115565 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.220 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000260 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3924.
+Total: 23.781600 ms (FindLiveObjects: 1.310700 ms CreateObjectMapping: 0.165900 ms MarkObjects: 22.252100 ms  DeleteObjects: 0.051400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003899 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 27.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.245 seconds
+Registering precompiled user dll's ...
+Registered in 0.122921 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.289 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000157 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 97.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4176.
+Total: 25.625500 ms (FindLiveObjects: 0.777500 ms CreateObjectMapping: 0.113900 ms MarkObjects: 24.619400 ms  DeleteObjects: 0.112300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 334.633891 seconds.
+  path: Assets/Arrow.prefab
+  artifactKey: Guid(5b8924528e461e24ba4d04d9729c1fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arrow.prefab using Guid(5b8924528e461e24ba4d04d9729c1fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60e3e28c887915c872b412243d66032') in 0.079386 seconds
+  Import took 0.082075 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003263 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 36.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.439 seconds
+Registering precompiled user dll's ...
+Registered in 0.155282 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.289 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000105 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.9 MB.
+System memory in use after: 103.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4432.
+Total: 23.647400 ms (FindLiveObjects: 0.858900 ms CreateObjectMapping: 0.143900 ms MarkObjects: 22.599700 ms  DeleteObjects: 0.043700 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003184 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.372 seconds
+Registering precompiled user dll's ...
+Registered in 0.115903 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.381 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000091 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 108.9 MB.
+System memory in use after: 109.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4684.
+Total: 25.493000 ms (FindLiveObjects: 0.670600 ms CreateObjectMapping: 0.122200 ms MarkObjects: 24.663700 ms  DeleteObjects: 0.035000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.851419 seconds.
+  path: Assets/Player.prefab
+  artifactKey: Guid(5faa45ff80dd86e4589e3694426f06b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.prefab using Guid(5faa45ff80dd86e4589e3694426f06b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee31f755b1e0a1b65666d9c548f452e') in 0.187263 seconds
+  Import took 0.262596 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004923 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 32.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.716 seconds
+Registering precompiled user dll's ...
+Registered in 0.169942 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.427 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000083 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.0 MB.
+System memory in use after: 114.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 4937.
+Total: 24.326700 ms (FindLiveObjects: 0.699800 ms CreateObjectMapping: 0.107700 ms MarkObjects: 23.455800 ms  DeleteObjects: 0.062000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.676364 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c464a609a20c05b94947d1975f29ce') in 0.009032 seconds
+  Import took 0.011552 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004616 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.604 seconds
+Registering precompiled user dll's ...
+Registered in 0.122782 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.336 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000092 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.0 MB.
+System memory in use after: 120.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 5189.
+Total: 25.886500 ms (FindLiveObjects: 1.114800 ms CreateObjectMapping: 0.214500 ms MarkObjects: 24.512000 ms  DeleteObjects: 0.044000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.190936 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9bb8003757d8cd255d0a97afcb8eb5') in 0.003030 seconds
+  Import took 0.005574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.824853 seconds.
+  path: Assets/HardLight2D/Editor/HardLight2DEditor.cs
+  artifactKey: Guid(bf62289964fd8b246a091190f94ee120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HardLight2D/Editor/HardLight2DEditor.cs using Guid(bf62289964fd8b246a091190f94ee120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6807fe880d3a17d1c3153d3093bf54a8') in 1.002582 seconds
+  Import took 1.007015 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011673 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 39.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.168 seconds
+Registering precompiled user dll's ...
+Registered in 0.121396 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.541 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000122 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.9 MB.
+System memory in use after: 126.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 5441.
+Total: 26.831800 ms (FindLiveObjects: 0.862000 ms CreateObjectMapping: 0.170400 ms MarkObjects: 25.713900 ms  DeleteObjects: 0.083900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.646036 seconds.
+  path: Assets/MoveArrow.cs
+  artifactKey: Guid(bd7922c467e39b7498cb4154699c9b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoveArrow.cs using Guid(bd7922c467e39b7498cb4154699c9b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccab703cc312c11e4c897d3def127f3') in 0.004878 seconds
+  Import took 0.008576 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002958 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 28.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.674 seconds
+Registering precompiled user dll's ...
+Registered in 0.130866 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.647 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000189 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.8 MB.
+System memory in use after: 132.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 5693.
+Total: 23.549100 ms (FindLiveObjects: 0.781300 ms CreateObjectMapping: 0.109700 ms MarkObjects: 22.598400 ms  DeleteObjects: 0.059100 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003353 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 27.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.728 seconds
+Registering precompiled user dll's ...
+Registered in 0.163123 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.875 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000119 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.8 MB.
+System memory in use after: 138.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 5945.
+Total: 33.428100 ms (FindLiveObjects: 1.311000 ms CreateObjectMapping: 0.179100 ms MarkObjects: 31.879900 ms  DeleteObjects: 0.056400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004397 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 30.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.526 seconds
+Registering precompiled user dll's ...
+Registered in 0.127148 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.924 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000130 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.7 MB.
+System memory in use after: 144.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 6197.
+Total: 25.152300 ms (FindLiveObjects: 0.869900 ms CreateObjectMapping: 0.163100 ms MarkObjects: 24.080900 ms  DeleteObjects: 0.037400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003249 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 29.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.975 seconds
+Registering precompiled user dll's ...
+Registered in 0.130987 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.891 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000119 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.8 MB.
+System memory in use after: 149.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 6449.
+Total: 26.303900 ms (FindLiveObjects: 0.986500 ms CreateObjectMapping: 0.155700 ms MarkObjects: 25.112200 ms  DeleteObjects: 0.048400 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003789 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 36.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.845 seconds
+Registering precompiled user dll's ...
+Registered in 0.181805 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.759 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000104 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.8 MB.
+System memory in use after: 155.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 6701.
+Total: 30.122600 ms (FindLiveObjects: 1.244700 ms CreateObjectMapping: 0.297000 ms MarkObjects: 28.525300 ms  DeleteObjects: 0.054700 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005083 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 92.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.954 seconds
+Registering precompiled user dll's ...
+Registered in 0.124697 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.000 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000104 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.7 MB.
+System memory in use after: 161.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 6953.
+Total: 27.046900 ms (FindLiveObjects: 1.227100 ms CreateObjectMapping: 0.195300 ms MarkObjects: 25.587900 ms  DeleteObjects: 0.033700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 296.038279 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aef87cb62b11106865cbd1fa390dbb8') in 0.004959 seconds
+  Import took 0.008790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055151 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aef87cb62b11106865cbd1fa390dbb8') in 0.002585 seconds
+  Import took 0.006502 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003280 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 27.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.982 seconds
+Registering precompiled user dll's ...
+Registered in 0.130968 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.890 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000093 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.8 MB.
+System memory in use after: 167.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 7205.
+Total: 27.875100 ms (FindLiveObjects: 2.405900 ms CreateObjectMapping: 0.270900 ms MarkObjects: 25.133800 ms  DeleteObjects: 0.062800 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003082 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.040 seconds
+Registering precompiled user dll's ...
+Registered in 0.117489 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.928 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000097 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.0 MB.
+System memory in use after: 173.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 7457.
+Total: 22.950100 ms (FindLiveObjects: 0.764400 ms CreateObjectMapping: 0.135400 ms MarkObjects: 22.009900 ms  DeleteObjects: 0.039500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1011.768232 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e55a765f00889bb250881df2e21dee') in 0.002886 seconds
+  Import took 0.005479 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003040 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 27.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.959 seconds
+Registering precompiled user dll's ...
+Registered in 0.129049 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.832 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000090 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 178.8 MB.
+System memory in use after: 179.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 7709.
+Total: 23.727100 ms (FindLiveObjects: 1.177200 ms CreateObjectMapping: 0.128300 ms MarkObjects: 22.361500 ms  DeleteObjects: 0.059200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003034 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.096 seconds
+Registering precompiled user dll's ...
+Registered in 0.107686 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.895 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000084 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.9 MB.
+System memory in use after: 184.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 7961.
+Total: 23.361600 ms (FindLiveObjects: 0.749600 ms CreateObjectMapping: 0.131100 ms MarkObjects: 22.399100 ms  DeleteObjects: 0.080500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.292293 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be64351706d0a631a4eac3b00e249d02') in 0.004113 seconds
+  Import took 0.007692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048254 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be64351706d0a631a4eac3b00e249d02') in 0.001865 seconds
+  Import took 0.004643 seconds .
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003152 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 26.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.938 seconds
+Registering precompiled user dll's ...
+Registered in 0.106346 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.949 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000102 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.9 MB.
+System memory in use after: 190.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 8213.
+Total: 21.395400 ms (FindLiveObjects: 0.861100 ms CreateObjectMapping: 0.128900 ms MarkObjects: 20.345100 ms  DeleteObjects: 0.059500 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0a19/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004567 seconds.
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 26.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.165 seconds
+Registering precompiled user dll's ...
+Registered in 0.104258 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Users\Acer\Documents\ball-game\Parkour Pro II\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.881 seconds
+Platform modules already initialized, skipping
+RefreshInternalV2 is called before InitialScriptRefresh has been called and asset database isn't fully initialized.
+
+Refresh completed in 0.000088 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.9 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 8465.
+Total: 23.593800 ms (FindLiveObjects: 0.839900 ms CreateObjectMapping: 0.127000 ms MarkObjects: 22.573000 ms  DeleteObjects: 0.052600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.907493 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66132e81cb9999e7ed7c22b424f406bd') in 0.003998 seconds
+  Import took 0.007487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006438 seconds.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(cbb26c650e1b2ee4293badb4e6e38a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66132e81cb9999e7ed7c22b424f406bd') in 0.002489 seconds
+  Import took 0.005358 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

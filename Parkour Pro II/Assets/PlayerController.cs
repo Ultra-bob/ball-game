@@ -1,6 +1,7 @@
 ﻿using UnityEngine.SceneManagement;
 using UnityEngine;
 
+
 public class PlayerController : MonoBehaviour
 {
 
@@ -29,6 +30,25 @@ public class PlayerController : MonoBehaviour
         if(transform.position.y < -6 && fading == false)
         {
             mgr.Restart();
+        }
+
+        if(transform.position.y > 7 && transform.position.y < 7.5)
+        {
+            rb.AddRelativeForce(new Vector2(0,100), ForceMode2D.Impulse);
+            Debug.Log("Force Applied");
+        }
+
+    }
+
+    private void Update()
+    {
+        if(transform.position.y > 8)
+        {
+            rb.gravityScale = 5;
+        }
+        else
+        {
+            rb.gravityScale = 1.5f;
         }
 
     }
