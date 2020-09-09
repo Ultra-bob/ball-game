@@ -43,5 +43,8 @@ public class GameManager : MonoBehaviour
     }
 
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
