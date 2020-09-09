@@ -30,4 +30,18 @@ public class GameManager : MonoBehaviour
         Invoke("NextLevel", 1);
     }
 
+<<<<<<< Updated upstream
+=======
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void ContinueGame()
+    {
+        SceneManager.LoadScene(PlayerPrefs.GetInt("Level"));
+    }
+
+
+>>>>>>> Stashed changes
 }

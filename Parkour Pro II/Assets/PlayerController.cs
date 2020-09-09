@@ -27,28 +27,62 @@ public class PlayerController : MonoBehaviour
         rb.velocity = direction;
         fading = mgr.fading;
 
-        if(transform.position.y < -6 && fading == false)
+        if (transform.position.y < -6 && fading == false)
         {
             mgr.Restart();
         }
 
+<<<<<<< Updated upstream
         if(transform.position.y > 7 && transform.position.y < 7.5)
         {
             rb.AddRelativeForce(new Vector2(0,100), ForceMode2D.Impulse);
             Debug.Log("Force Applied");
         }
+=======
+        if (transform.position.y > 7 && transform.position.y < 8)
+        {
+            //rb.AddRelativeForce(new Vector2(0,1000), ForceMode2D.Impulse);
+            //Debug.Log("Force Applied");
+        }
 
-    }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (transform.position.y > 7 && transform.position.y < 8)
+            {
+                //rb.AddRelativeForce(new Vector2(0,1000), ForceMode2D.Impulse);
+                //Debug.Log("Force Applied");
+            }
+>>>>>>> Stashed changes
 
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                rb.AddRelativeForce(new Vector2(0, 100));
+            }
+
+<<<<<<< Updated upstream
     private void Update()
     {
         if(transform.position.y > 8)
         {
             rb.gravityScale = 5;
+=======
+>>>>>>> Stashed changes
         }
-        else
+
+        void Update()
         {
+<<<<<<< Updated upstream
             rb.gravityScale = 1.5f;
+=======
+            if (transform.position.y > 20)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, -10);
+            }
+            else
+            {
+                //rb.gravityScale = 1.5f;
+            }
+>>>>>>> Stashed changes
         }
 
     }
