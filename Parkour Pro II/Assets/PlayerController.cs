@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
         }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
         if(transform.position.y > 7 && transform.position.y < 8)
         {
@@ -41,6 +42,16 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+=======
+        if(transform.position.y > 7 && transform.position.y < 8)
+        {
+            //rb.AddRelativeForce(new Vector2(0,1000), ForceMode2D.Impulse);
+            //Debug.Log("Force Applied");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+>>>>>>> Stashed changes
             rb.AddRelativeForce(new Vector2(0, 100));
         }
 
