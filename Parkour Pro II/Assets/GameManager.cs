@@ -29,9 +29,6 @@ public class GameManager : MonoBehaviour
         fade.FadeOut();
         Invoke("NextLevel", 1);
     }
-
-<<<<<<< Updated upstream
-=======
     public void StartGame()
     {
         SceneManager.LoadScene(1);
@@ -41,10 +38,4 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(PlayerPrefs.GetInt("Level"));
     }
-
-
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 }

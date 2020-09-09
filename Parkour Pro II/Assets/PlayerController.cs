@@ -32,77 +32,30 @@ public class PlayerController : MonoBehaviour
             mgr.Restart();
         }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        if(transform.position.y > 7 && transform.position.y < 7.5)
-=======
-        if (transform.position.y > 7 && transform.position.y < 8)
->>>>>>> Stashed changes
+        if (transform.position.y > 20)
         {
-            rb.AddRelativeForce(new Vector2(0,100), ForceMode2D.Impulse);
-            Debug.Log("Force Applied");
+            rb.velocity = new Vector2(rb.velocity.x, -10);
         }
-<<<<<<< Updated upstream
-=======
+
         if (transform.position.y > 7 && transform.position.y < 8)
         {
             //rb.AddRelativeForce(new Vector2(0,1000), ForceMode2D.Impulse);
-            //Debug.Log("Force Applied");
+            Debug.Log("Force Applied");
         }
-=======
->>>>>>> Stashed changes
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (transform.position.y > 7 && transform.position.y < 8)
             {
                 //rb.AddRelativeForce(new Vector2(0,1000), ForceMode2D.Impulse);
-                //Debug.Log("Force Applied");
+                Debug.Log("Force Applied");
             }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 rb.AddRelativeForce(new Vector2(0, 100));
             }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    private void Update()
-    {
-        if(transform.position.y > 8)
-        {
-            rb.gravityScale = 5;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-        }
-
-        void Update()
-        {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            rb.gravityScale = 1.5f;
-=======
-=======
->>>>>>> Stashed changes
-            if (transform.position.y > 20)
-            {
-                rb.velocity = new Vector2(rb.velocity.x, -10);
             }
-            else
-            {
-                //rb.gravityScale = 1.5f;
-            }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         }
-
     }
-}
