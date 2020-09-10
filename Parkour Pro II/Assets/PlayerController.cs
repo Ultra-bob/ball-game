@@ -27,14 +27,14 @@ public class PlayerController : MonoBehaviour
         rb.velocity = direction;
         fading = mgr.fading;
 
-        if (transform.position.y < -6 && fading == false)
+        if (transform.position.y < -15 && fading == false)
         {
             mgr.Restart();
         }
 
         if (transform.position.y > 20)
         {
-            rb.velocity = new Vector2(rb.velocity.x, -10);
+            //rb.velocity = new Vector2(rb.velocity.x, -10);
         }
 
         if (transform.position.y > 7 && transform.position.y < 8)
@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                rb.AddRelativeForce(new Vector2(0, 100));
+                //rb.AddRelativeForce(new Vector2(0, 100));
             }
 
             }
